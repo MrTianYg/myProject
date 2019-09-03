@@ -1,9 +1,7 @@
 <template>
   <div class="hello">
     <v-slider>
-      <div :key="i.id" v-for="i in imgList" style="width: 500px">
-        <img :src="i.src" alt="" style="width: 100%">
-      </div>
+      <img :key="i.id" v-for="i in imgList" style="width: 500px" :src="i.src">
     </v-slider>
   </div>
 </template>
