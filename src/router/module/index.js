@@ -1,4 +1,4 @@
-import slider from './slider'
+import projectRouter from './projectRouter'
 
 let routesArray = []
 
@@ -11,6 +11,6 @@ let toArray = (pages) => {
   })
 }
 
-toArray([slider])
+toArray([projectRouter])
 
 export default routesArray
